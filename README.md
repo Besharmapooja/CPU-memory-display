@@ -3,6 +3,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
 
+
 entity cpu_top is
   port( clk      : in  std_logic; -- cpu clock
         clk50    : in std_logic;  -- display clock (50 MHz)
